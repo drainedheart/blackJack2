@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url("images/blackjack-rules.jpg");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+#container{
+    padding: 10px;
+    background: #016f32;
+    max-width: 100%;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+button {
+    width: 160px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: goldenrod;
+    font-weight: bold;
+    color: #016f32;
+    border: 3px solid white;
+    border-radius: 6px;
+    height: 40px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
